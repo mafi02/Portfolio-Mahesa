@@ -845,19 +845,25 @@ a.contact-btn:hover{
 
 .logo{
   display:flex;
-
   align-items:center;
-
-  gap:12px;
+  gap:14px;
 }
 
-.logo-text{
-  transition:.3s;
+.logo-name{
+  display:block;
 }
 
 @media(max-width:768px){
 
-  .logo-text{
+  .logo-name{
+    display:none;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .logo-wrap{
     display:none;
   }
 
