@@ -868,3 +868,16 @@ a.contact-btn:hover{
   }
 
 }
+
+
+.logo-wrap{
+  text-decoration:none !important;
+
+  color:inherit;
+
+  cursor:pointer;
+}
+
+.logo-wrap:hover{
+  color:inherit;
+}
