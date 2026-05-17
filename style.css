@@ -842,3 +842,23 @@ a.contact-btn:hover{
 
   padding:10px;
 }
+
+.logo{
+  display:flex;
+
+  align-items:center;
+
+  gap:12px;
+}
+
+.logo-text{
+  transition:.3s;
+}
+
+@media(max-width:768px){
+
+  .logo-text{
+    display:none;
+  }
+
+}
